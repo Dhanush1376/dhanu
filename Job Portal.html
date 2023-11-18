@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="Job Portal.css">
+    
+</head>
+<body>
+    <h1>Job Portal</h1>
+    <br>
+    <form>
+        <h2>Personal-info</h2><hr class="line1">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name" name="name" required>
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" placeholder=" Enter Your Email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password" name="password" required>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" placeholder="Country" name="country" required>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="Region" name="city" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+<hr><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Female
+        <input type="radio" id="other" name="gender" value="other"> Other
+<hr><br>
+        <label for="engineering">Engineering Course:</label>
+        <select id="engineering" name="engineering">
+            <option value="cse">Computer Science Engineering</option>
+            <option value="civil">Civil Engineering</option>
+            <option value="mechanical">Mechanical Engineering</option>
+            <option value="electrical">Electrical Engineering</option>
+            <!-- Add more engineering options here -->
+        </select>
+<hr><br>
+        <label for="skills">Preferred Skills:</label>
+        <select multiple id="skills" name="skills">
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="c">C</option>
+            <option value="python">Python</option>
+            <!-- Add more skill options here -->
+        </select>
+<hr>
+<div class="Biography">
+        <label for="biography">Biography:</label>
+        <textarea class="Biography" id="biography" name="biography" placeholder="Add Bio..." rows="4"></textarea>
+        </div>
+<hr>
+        <button class="submit-button" type="submit">Submit</button>
+    </form>
+</body>
+</html>

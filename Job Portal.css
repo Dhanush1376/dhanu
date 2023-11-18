@@ -1,0 +1,88 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1019217082/photo/abstract-blurred-office-interior-room-blurry-working-space-with-defocused-effect-use-for.webp?b=1&s=612x612&w=0&k=20&c=o19X5eOiXlPVfsmXOY3OoKJuRgpSC1RdqrWsXYNaoP4=');
+    background-size: 2000px;
+
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 20px;
+}
+label, select, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+select, textarea {
+    width: 100%;
+}
+.submit-button {
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-style: bold;
+
+}
+
+ textarea {
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(27, 22, 26);
+        border-radius: 10px;
+        color: rgb(6, 6, 6);
+        
+      }
+      input {
+        text-align: center;
+        background-color: rgb(245, 243, 244);
+        border: 1px solid rgb(27, 22, 26);
+        border-radius: 20px;
+        color: rgb(6, 6, 6);
+      
+      }
+      .input1 {
+        height: 300px;
+        width: 300px;
+      }
+      label{
+        font-size: 20px
+      }
+h1 {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.line1 {
+    height: 1px;
+    border-radius: 200px;
+    background-color: antiquewhite;
+    border-color: rgb(255, 253, 253);   
+    weight: 400px; 
+}
+
+h2 {
+    font-style: bold;
+    text-decoration: double;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+}
+.textarea1 {
+ text-align: left;
+}
+.gender {
+    text-align: left;
+}
+.Biography {
+    text-align: left;
+}
